@@ -10,7 +10,8 @@ struct Particle {
 
 fn main() {
     let mut f = File::open("day_20_input.txt").expect("File not found");
-    let mut _inp = String::new(); f.read_to_string(&mut _inp).expect("Something went wrong");
+    let mut _inp = String::new(); 
+    f.read_to_string(&mut _inp).expect("Something went wrong");
 
     let lines = _inp.lines();
     /*
